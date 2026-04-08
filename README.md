@@ -32,10 +32,10 @@
 ```ts
 const mert: Engineer = {
     location:   "Kocaeli, Turkey",
-    role:       "System Architecture & Designer @ Probiz Yazılım",
+    role:       "#Industrial Engineer !System Architecture & Designer @ Probiz Yazılım",
     experience: "5+ years",
     shipped:    "50+ projects",
-    education:  "Industrial Engineering — Balıkesir University",
+    education:  "Balıkesir University",
     focus:      ["Enterprise APIs", "AI/RAG Systems", "ERP Platforms", "Automation"],
     currently:  "Building self-hosted AI assistants & enterprise integration platforms",
 };
