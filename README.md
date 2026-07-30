@@ -12,6 +12,11 @@
 <a href="https://linkedin.com/in/yzcmert"><img src="https://img.shields.io/badge/LinkedIn-yzcmert-white?style=flat-square&logo=linkedin&logoColor=black"/></a>&nbsp;
 <a href="mailto:yzc.mert@icloud.com"><img src="https://img.shields.io/badge/Email-yzc.mert@icloud.com-white?style=flat-square&logo=icloud&logoColor=black"/></a>
 
+<br/>
+<br/>
+
+<img src="assets/terminal.svg" alt="animated terminal — whoami: Mert Yazıcı, Senior Full-Stack Engineer" width="780"/>
+
 </div>
 
 <br/>
@@ -30,6 +35,19 @@ const principles = [
   "Boring, observable architecture beats clever architecture",
   "Automate the second time, not the tenth",
 ];
+```
+
+### How I ship
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#111111', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#333333', 'lineColor': '#666666', 'fontFamily': 'monospace', 'edgeLabelBackground': '#0a0a0a'}}}%%
+flowchart LR
+    A["business problem"] --> B{"can it be<br/>boring?"}
+    B -- "yes" --> C["ship boring,<br/>observable architecture"]
+    B -- "no" --> D["decompose until<br/>it is boring"]
+    D --> B
+    C --> E["production"]
+    E -- "telemetry → next iteration" --> A
 ```
 
 <br/>
@@ -181,7 +199,39 @@ Workintech · 2026
 
 <img src="https://streak-stats.demolab.com?user=YZCMert&hide_border=true&background=0A0A0A&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=999999&currStreakNum=FFFFFF&sideNums=999999&dates=555555" />
 
+<br/>
+<br/>
+
+<img src="https://raw.githubusercontent.com/YZCMert/YZCMert/output/snake-dark.svg" alt="contribution snake" width="100%"/>
+
 </div>
+
+<br/>
+
+<details>
+<summary><code>$ sudo cat /etc/mert/easter-egg</code> &nbsp;🔓</summary>
+
+<br/>
+
+```yaml
+# You found the hidden config. Here's what doesn't fit on a CV:
+
+hardware:
+  gpu: "RTX 4060 Ti — runs local LLMs, never sleeps"
+  philosophy: "why rent intelligence when you can self-host it?"
+
+workflow:
+  night_shift: "AI agents refactor my repos while I sleep (02:00–05:00)"
+  rule: "if I did it twice, it's already a script"
+
+origin_story:
+  plot_twist: "industrial engineer → software architect"
+  superpower: "sees factories in codebases: constraints, throughput, bottlenecks"
+
+easter_egg_reward: "you read READMEs to the end — we should probably talk"
+```
+
+</details>
 
 <br/>
 

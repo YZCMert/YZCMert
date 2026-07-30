@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="344" viewBox="0 0 780 344" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Menlo,Consolas,monospace">
+  <style>
+    .cmd { fill: #ffffff; font-size: 15px; }
+    .out { fill: #9a9a9a; font-size: 15px; }
+    .dim { fill: #5a5a5a; }
+    .hl  { fill: #ffffff; }
+    .title { fill: #666666; font-size: 12px; }
+
+    .all { animation: fadeAll 16s linear infinite; }
+    @keyframes fadeAll { 0%, 93% { opacity: 1; } 97%, 100% { opacity: 0; } }
+
+    .t1 { animation: t1 16s linear infinite; }
+    @keyframes t1 { 0%, 2% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(8, end); } 8%, 100% { clip-path: inset(0 -2% 0 0); } }
+    .o1 { animation: o1 16s linear infinite; }
+    @keyframes o1 { 0%, 8% { opacity: 0; } 9%, 100% { opacity: 1; } }
+
+    .t2 { animation: t2 16s linear infinite; }
+    @keyframes t2 { 0%, 13% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(15, end); } 21%, 100% { clip-path: inset(0 -2% 0 0); } }
+    .o2 { animation: o2 16s linear infinite; }
+    @keyframes o2 { 0%, 21% { opacity: 0; } 22%, 100% { opacity: 1; } }
+
+    .t3 { animation: t3 16s linear infinite; }
+    @keyframes t3 { 0%, 27% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(8, end); } 33%, 100% { clip-path: inset(0 -2% 0 0); } }
+    .o3 { animation: o3 16s linear infinite; }
+    @keyframes o3 { 0%, 33% { opacity: 0; } 34%, 100% { opacity: 1; } }
+
+    .t4 { animation: t4 16s linear infinite; }
+    @keyframes t4 { 0%, 39% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(17, end); } 49%, 100% { clip-path: inset(0 -2% 0 0); } }
+    .o4 { animation: o4 16s linear infinite; }
+    @keyframes o4 { 0%, 50% { opacity: 0; } 52%, 100% { opacity: 1; } }
+
+    .cur { animation: showCur 16s linear infinite; }
+    @keyframes showCur { 0%, 54% { opacity: 0; } 56%, 100% { opacity: 1; } }
+    .blink { animation: blink 1.1s steps(1, end) infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="778" height="342" rx="12" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1"/>
+  <!-- title bar -->
+  <circle cx="26" cy="24" r="6" fill="#2a2a2a"/>
+  <circle cx="48" cy="24" r="6" fill="#2a2a2a"/>
+  <circle cx="70" cy="24" r="6" fill="#2a2a2a"/>
+  <text x="390" y="28" text-anchor="middle" class="title">mert@yazici: ~</text>
+  <line x1="1" y1="44" x2="779" y2="44" stroke="#1f1f1f" stroke-width="1"/>
+
+  <g class="all">
+    <text x="24" y="78" class="cmd t1"><tspan class="dim">$ </tspan>whoami</text>
+    <text x="24" y="104" class="out o1">Mert Yazıcı <tspan class="dim">—</tspan> <tspan class="hl">Senior Full-Stack Engineer</tspan></text>
+
+    <text x="24" y="142" class="cmd t2"><tspan class="dim">$ </tspan>cat focus.txt</text>
+    <text x="24" y="168" class="out o2">enterprise-apis <tspan class="dim">·</tspan> ai-rag-systems <tspan class="dim">·</tspan> erp-platforms <tspan class="dim">·</tspan> automation</text>
+
+    <text x="24" y="206" class="cmd t3"><tspan class="dim">$ </tspan>uptime</text>
+    <text x="24" y="232" class="out o3">5+ years in production <tspan class="dim">·</tspan> 50+ projects shipped <tspan class="dim">·</tspan> 0 unhandled exceptions</text>
+
+    <text x="24" y="270" class="cmd t4"><tspan class="dim">$ </tspan>./mission --now</text>
+    <text x="24" y="296" class="out o4"><tspan class="hl">▸</tspan> building self-hosted AI assistants for the enterprise</text>
+
+    <g class="cur">
+      <text x="24" y="330" class="cmd"><tspan class="dim">$ </tspan></text>
+      <rect x="42" y="317" width="9" height="16" fill="#ffffff" class="blink"/>
+    </g>
+  </g>
+</svg>
