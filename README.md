@@ -1,49 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:0a0a0a,100:0a0a0a&height=1&section=header" width="100%"/>
+# Mert Yazıcı
 
-```
- ███╗   ███╗███████╗██████╗ ████████╗    ██╗   ██╗ █████╗ ███████╗██╗ ██████╗██╗
- ████╗ ████║██╔════╝██╔══██╗╚══██╔══╝    ╚██╗ ██╔╝██╔══██╗╚══███╔╝██║██╔════╝██║
- ██╔████╔██║█████╗  ██████╔╝   ██║        ╚████╔╝ ███████║  ███╔╝ ██║██║     ██║
- ██║╚██╔╝██║██╔══╝  ██╔══██╗   ██║         ╚██╔╝  ██╔══██║ ███╔╝  ██║██║     ██║
- ██║ ╚═╝ ██║███████╗██║  ██║   ██║          ██║   ██║  ██║███████╗██║╚██████╗██║
- ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝          ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝╚═╝
-```
+### Senior Full-Stack Engineer · AI Systems Builder
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=80&lines=FULL+STACK+ENGINEER+%E2%80%94+AI+SYSTEMS+BUILDER;Shipping+enterprise+APIs+%26+AI+assistants;Where+creative+code+meets+pixel-perfect+engineering)](https://mertyazici.net)
+*Designing and shipping enterprise APIs, AI assistants and integration platforms end-to-end.*
 
 <br/>
 
 <a href="https://mertyazici.net"><img src="https://img.shields.io/badge/Portfolio-mertyazici.net-white?style=flat-square&logo=vercel&logoColor=black"/></a>&nbsp;
 <a href="https://linkedin.com/in/yzcmert"><img src="https://img.shields.io/badge/LinkedIn-yzcmert-white?style=flat-square&logo=linkedin&logoColor=black"/></a>&nbsp;
-<a href="mailto:yzc.mert@icloud.com"><img src="https://img.shields.io/badge/Email-yzc.mert@icloud.com-white?style=flat-square&logo=icloud&logoColor=black"/></a>&nbsp;
-<a href="https://instagram.com/yzc.mert"><img src="https://img.shields.io/badge/Instagram-yzc.mert-white?style=flat-square&logo=instagram&logoColor=black"/></a>
-
-<br/>
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=YZCMert&label=VISITORS&color=000000&style=flat-square&labelColor=000000" alt="visitors" />
+<a href="mailto:yzc.mert@icloud.com"><img src="https://img.shields.io/badge/Email-yzc.mert@icloud.com-white?style=flat-square&logo=icloud&logoColor=black"/></a>
 
 </div>
 
 <br/>
 
+## About
+
+- **System Architect & Full-Stack Engineer** at **Probiz Yazılım** — Kocaeli, Turkey
+- **5+ years** of hands-on engineering, **50+ projects** shipped to production
+- Focus areas: **Enterprise APIs · AI/RAG systems · ERP platforms · Process automation**
+- Currently building **self-hosted AI assistants** and **enterprise integration platforms** used daily across manufacturing companies
+- Industrial Engineering background (Balıkesir University) — I approach software as a system: constraints, throughput, failure modes first
+
 ```ts
-const mert: Engineer = {
-    location:   "Kocaeli, Turkey",
-    role:       "#Industrial Engineer !System Architecture & Designer @ Probiz Yazılım",
-    experience: "5+ years",
-    shipped:    "50+ projects",
-    education:  "Balıkesir University",
-    focus:      ["Enterprise APIs", "AI/RAG Systems", "ERP Platforms", "Automation"],
-    currently:  "Building self-hosted AI assistants & enterprise integration platforms",
-};
+const principles = [
+  "Production is the only benchmark that matters",
+  "Boring, observable architecture beats clever architecture",
+  "Automate the second time, not the tenth",
+];
 ```
 
 <br/>
 
-## `> TECH STACK`
+## Tech Stack
 
 <div align="center">
 
@@ -100,52 +91,76 @@ const mert: Engineer = {
 
 <br/>
 
-## `> FEATURED WORK`
-
-<div align="center">
+## Featured Work
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### AI.PROKA
-**Self-hosted Enterprise AI Assistant**
+### AI.PROKA — Self-Hosted Enterprise AI Assistant
 
-`React` `Ollama` `RAG` `.NET 8` `Dapper`
+`.NET 8` `React` `Ollama` `RAG` `Dapper`
 
-Hybrid search engine (BM25 + Cosine + RRF), 500+ corporate documents, context-aware responses with streaming. Fine-tuned LLM on domain-specific data.
+Hybrid retrieval engine (BM25 + cosine similarity + RRF fusion) over 500+ corporate documents. Streaming, context-aware answers served fully on-premise — no data leaves the company network.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ProEntegrator
-**Enterprise Integration Platform**
+### ProEntegrator — Enterprise Integration Platform
 
-`React` `.NET 8` `SQL Server` `TypeScript`
+`.NET 8` `React` `TypeScript` `SQL Server`
 
-ERP-to-mobile bridge with 38+ API endpoints. Modular architecture unifying production, inventory, sales & HR systems under one roof.
+ERP-to-mobile bridge with 38+ API endpoints. Modular architecture unifying production, inventory, sales and HR data flows for daily operational use.
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### Real Estate CRM Bot
-**Industry-Specific Automation**
+### Real Estate CRM Automation
 
 `C#` `WPF` `.NET 8` `Selenium`
 
-CRM automation for real estate. Manages listing collection, client matching, and automated communication workflows across multiple platforms.
+Industry-specific CRM automation: listing collection, client matching and communication workflows orchestrated across multiple platforms.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### Marketplace Sync Suite
-**Multi-Platform E-Commerce Automation**
 
 `C#` `WPF` `.NET 8` `PostgreSQL`
 
-Desktop app synchronizing multiple e-commerce platforms. Automates stock, pricing, and order management from a single control point.
+Desktop application synchronizing stock, pricing and order management across multiple e-commerce platforms from a single control point.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<br/>
+<a href="https://mertyazici.net"><img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS_%E2%86%92-mertyazici.net-white?style=for-the-badge&labelColor=000000"/></a>
+</div>
+
+<br/>
+
+## Certifications
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/certificates/workintech-fullstack-960h.png" alt="Workintech Fullstack Developer Certificate" width="100%"/>
+
+**Fullstack Developer Program — 960 hours**<br/>
+Workintech · 2026
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/certificates/workintech-backend-480h.png" alt="Workintech Backend Developer Certificate" width="100%"/>
+
+**Backend Developer Program — 480 hours**<br/>
+Workintech · 2026
 
 </td>
 </tr>
@@ -153,13 +168,7 @@ Desktop app synchronizing multiple e-commerce platforms. Automates stock, pricin
 
 <br/>
 
-<a href="https://mertyazici.net"><img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS_%E2%86%92-mertyazici.net-white?style=for-the-badge&labelColor=000000"/></a>
-
-</div>
-
-<br/>
-
-## `> METRICS`
+## GitHub Metrics
 
 <div align="center">
 
@@ -167,49 +176,12 @@ Desktop app synchronizing multiple e-commerce platforms. Automates stock, pricin
 &nbsp;&nbsp;
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YZCMert&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=999999&langs_count=8" />
 
-<br/>
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YZCMert&hide_border=true&background=0A0A0A&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=999999&currStreakNum=FFFFFF&sideNums=999999&dates=555555" />
-
 </div>
 
 <br/>
 
-## `> SHOWCASE`
+## Contact
 
-<div align="center">
+Open to senior engineering roles, architecture consulting and challenging integration problems.
 
-https://mertyazici.net/video/showcase_01.mp4
-
-https://mertyazici.net/video/showcase_02.mp4
-
-https://mertyazici.net/video/showcase_03.mp4
-
-</div>
-
-<br/>
-
-## `> CONNECT`
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   Ready to build something that moves the needle?            ║
-║                                                              ║
-║   ┌─────────────┐  ┌──────────────┐  ┌─────────────────┐    ║
-║   │  Portfolio   │  │   LinkedIn   │  │      Email      │    ║
-║   │ mertyazici   │  │   /yzcmert   │  │ yzc.mert@       │    ║
-║   │    .net      │  │              │  │  icloud.com     │    ║
-║   └─────────────┘  └──────────────┘  └─────────────────┘    ║
-║                                                              ║
-║   STATUS: ● LIGHTS ON — Probiz Yazılım                      ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:0a0a0a,100:0a0a0a&height=1&section=footer" width="100%"/>
+**Portfolio:** [mertyazici.net](https://mertyazici.net) · **LinkedIn:** [/in/yzcmert](https://linkedin.com/in/yzcmert) · **Email:** [yzc.mert@icloud.com](mailto:yzc.mert@icloud.com)
