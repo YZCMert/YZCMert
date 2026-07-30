@@ -27,6 +27,23 @@ jobs:
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#161b22,#2d333b,#555e68,#98a3b3,#ffffff
 
+      # streak-stats.demolab.com 5-30s yanıt veriyor; GitHub camo ~4s'de timeout atıp
+      # 504 döndürüyor. Çözüm: kartı burada çekip repo'dan servis etmek.
+      - name: Fetch streak card (camo-timeout workaround)
+        run: |
+          mkdir -p dist
+          URL="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&hide_border=true&background=0A0A0A&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=999999&currStreakNum=FFFFFF&sideNums=999999&dates=555555"
+          for i in 1 2 3 4 5; do
+            if curl -sf --max-time 90 "$URL" -o dist/streak-dark.svg && grep -q "<svg" dist/streak-dark.svg; then
+              echo "streak fetched on attempt $i"; break
+            fi
+            rm -f dist/streak-dark.svg; sleep 10
+          done
+          if [ ! -s dist/streak-dark.svg ]; then
+            echo "all attempts failed — keeping previous version"
+            curl -sf "https://raw.githubusercontent.com/${{ github.repository }}/output/streak-dark.svg" -o dist/streak-dark.svg || true
+          fi
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

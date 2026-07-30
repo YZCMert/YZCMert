@@ -197,7 +197,7 @@ Workintech · 2026
 <br/>
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=YZCMert&hide_border=true&background=0A0A0A&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=999999&currStreakNum=FFFFFF&sideNums=999999&dates=555555" />
+<img src="https://raw.githubusercontent.com/YZCMert/YZCMert/output/streak-dark.svg" alt="GitHub streak stats" />
 
 <br/>
 <br/>
