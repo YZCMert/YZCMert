@@ -172,9 +172,14 @@ Workintech · 2026
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YZCMert&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=999999&icon_color=ffffff&ring_color=ffffff&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YZCMert&theme=github_dark" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YZCMert&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=999999&langs_count=8" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YZCMert&theme=github_dark" />
+
+<br/>
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=YZCMert&hide_border=true&background=0A0A0A&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=999999&currStreakNum=FFFFFF&sideNums=999999&dates=555555" />
 
 </div>
 
